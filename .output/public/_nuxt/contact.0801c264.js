@@ -1,0 +1,1 @@
+import{a as t,b as c,o,e}from"./entry.d1bacccd.js";const s={},a={class:"pages contact-page"},n=e("div",{class:"container"},[e("h1",null,"Contact")],-1),_=[n];function r(d,i){return o(),c("div",a,_)}const f=t(s,[["render",r]]);export{f as default};
