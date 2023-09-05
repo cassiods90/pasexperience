@@ -1,0 +1,127 @@
+.architecture-banner {
+    padding: 110px 0;
+    background: $backgroundGradientBlue;
+    .left-infos {
+        .text-line {
+            width: 41px;
+            height: 2px;
+            background: $white;
+            margin: 15px 0;
+        }
+    }
+
+    .right-infos {
+        max-width: 544px;
+
+        .subdesc {
+            margin-top: 5px;
+        }
+
+        .top-text {
+        }
+
+        .mid-text {
+            margin-top: 20px;
+            width: 100%;
+        }
+        .bottom-text {
+            margin-top: 20px;
+            .left-text {
+            }
+            .right-text {
+            }
+        }
+    }
+}
+
+.undestanding-problem {
+    padding: 20px 0;
+    &.architecture {
+        .undestanding-problem-text {
+            padding: 20px 0;
+            b {
+                color: $white;
+                background: $blue;
+            }
+        }
+        .getting-started-more-text {
+            margin: 0 -20px 10px;
+            .box-item {
+                padding: 0 20px;
+                width: 50%;
+                .text {
+                    &.title {
+                        margin: 10px 0 30px;
+                    }
+                }
+
+                .getting-started-links {
+                    margin-top: 10px;
+                    a {
+                        font-size: 10px;
+                        color: $blue;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .undestanding-problem-text-bottom {
+            margin-top: 40px;
+            .getting-started-links {
+                margin-top: 10px;
+                a {
+                    color: $blue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.polygon-brands {
+    .polygon-brands-content {
+        margin: 0 -40px;
+        .box-item {
+            padding: 0 40px;
+            width: 256px;
+
+            &.tinder {
+                margin-top: 60px;
+                img {
+                    width: 119px;
+                    height: 67px;
+                }
+            }
+            &.fiverr {
+                img {
+                    width: 126px;
+                    height: 75px;
+                }
+                .polygon {
+                    margin-top: 45px;
+                }
+            }
+            &.glassdoor {
+                margin-top: 30px;
+                img {
+                    width: 168px;
+                    height: 113px;
+                }
+            }
+            &.socialblade {
+                margin-top: 60px;
+                img {
+                    width: 205px;
+                    height: 27px;
+                }
+            }
+            &.notion {
+                margin-top: 50px;
+                img {
+                    width: 157px;
+                    height: 58px;
+                }
+            }
+        }
+    }
+}
