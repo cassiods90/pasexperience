@@ -1,0 +1,290 @@
+/* Start Theme Colors */
+body {
+	&.blue-theme {
+		.academics-item {
+
+    }
+    .academic-item {
+      .academic-item-content {
+        .academic-title {
+          color: $blue;
+        }
+        .academic-date {
+          // color: $blue05;
+        }
+      }
+    }
+		.certificates-item {
+			.certificates-item-content {
+				.certificates-title {
+					color: $blue;
+				}
+				.certificates-institute {
+					color: $blue05;
+				}
+			}
+		}
+	}
+	&.pink-theme {
+		.academics-item {
+
+    }
+    .academic-item {
+      .academic-item-content {
+        .academic-title {
+          color: $pink;
+        }
+        .academic-date {
+          // color: $pink05;
+        }
+      }
+    }
+		.certificates-item {
+			.certificates-item-content {
+				.certificates-title {
+					color: $pink;
+				}
+				.certificates-institute {
+					color: $pink05;
+				}
+			}
+		}
+	}
+	&.green-theme {
+		.academics-item {
+
+    }
+    .academic-item {
+      .academic-item-content {
+        .academic-title {
+          color: $green;
+        }
+        .academic-date {
+          // color: $green05;
+        }
+      }
+		}
+		.certificates-item {
+			.certificates-item-content {
+				.certificates-title {
+					color: $green;
+				}
+				.certificates-institute {
+					color: $green05;
+				}
+			}
+		}
+	}
+	&.yellow-theme {
+		.academics-item {
+
+    }
+    .academic-item {
+      .academic-item-content {
+        .academic-title {
+          color: $yellow;
+        }
+        .academic-date {
+          // color: $yellow05;
+        }
+      }
+		}
+		.certificates-item {
+			.certificates-item-content {
+				.certificates-title {
+					color: $yellow;
+				}
+				.certificates-institute {
+					color: $yellow05;
+				}
+			}
+		}
+	}
+}
+/* End Theme Colors */
+.academics-items {
+	padding: 0 30px;
+}
+
+.academic-item {
+	margin: 20px 0;
+	padding: 0;
+	&:hover {
+		.academic-item-image {
+			overflow: hidden;
+			picture {
+				img {
+					opacity: 0.6;
+					transform: scale3d(1.1, 1.1, 1.1);
+				}
+			}
+		}
+	}
+	.academic-item-image {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		border-radius: 15px 15px 0 0;
+		picture {
+			border-radius: 15px 15px 0 0;
+			img {
+				@include transition();
+				object-fit: fill;
+				border-radius: 15px 15px 0 0;
+			}
+		}
+	}
+	.academic-item-content {
+		padding: 30px 15px;
+		.academic-title {
+			text-align: center;
+			color: $blue;
+		}
+		.academic-university {
+			// color: $blue05;
+			text-align: center;
+			padding: 15px 0 5px;
+			// white-space: nowrap;
+		}
+		.academic-date {
+			text-align: center;
+		}
+	}
+}
+
+.certificates-items {
+	padding: 0 30px 50px;
+}
+
+.certificates-item {
+	margin: 20px 0;
+	padding: 0;
+	position: relative;
+	@include transition();
+	&:hover {
+		.certificates-item-image {
+			overflow: hidden;
+			picture {
+				img {
+					opacity: 0.6;
+					transform: scale3d(1.1, 1.1, 1.1);
+				}
+			}
+		}
+	}
+	.certificates-item-image {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		border-radius: 15px 15px 0 0;
+		picture {
+			border-radius: 15px 15px 0 0;
+			img {
+				@include transition();
+				object-fit: fill;
+				border-radius: 15px 15px 0 0;
+			}
+		}
+	}
+	.certificates-item-content {
+		padding: 30px 15px;
+		.certificates-title {
+			text-align: center;
+			color: $blue;
+			min-height: 48px;
+		}
+		.certificates-institute {
+			color: $blue05;
+			text-align: center;
+			padding: 15px 0 5px;
+			white-space: nowrap;
+		}
+		.certificates-hours {
+			text-align: center;
+			padding: 5px;
+		}
+		.certificates-link {
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.academics-item {
+		margin: 0;
+		.academic-title {
+			min-height: 84px;
+		}
+		.academic-university {
+			min-height: 34px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.academics-items {
+		padding: 0 50px;
+	}
+	.academics-item {
+		margin: 20px 0;
+		.academic-title {
+			min-height: 22px;
+		}
+		.academic-university {
+			min-height: 17px;
+		}
+	}
+	.certificates-items {
+		padding: 0 50px 50px;
+	}
+}
+
+@media (min-width: 1199px) {
+	.academics-item {
+		margin: 0;
+  }
+  .academic-item {
+    .academic-item-content {
+      .academic-title {
+        min-height: 84px;
+      }
+      .academic-university {
+        min-height: 50px;
+      }
+    }
+
+	}
+}
+
+@media (min-width: 1400px) {
+	.academics-item {
+
+  }
+  .academic-item {
+    .academic-item-content {
+      .academic-title {
+        min-height: 69px;
+      }
+      .academic-university {
+        min-height: 35px;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1600px) {
+	.academics-item {
+		padding: 30px;
+  }
+  .academic-item {
+    .academic-item-content {
+      .academic-title {
+        min-height: 48px;
+      }
+      .academic-university {
+        min-height: 17px;
+      }
+    }
+  }
+}

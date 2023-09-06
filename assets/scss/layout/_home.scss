@@ -1,0 +1,116 @@
+body {
+    &.blue-theme {
+        .home-content {
+            .home-content-text {
+                .homeTitle {
+                    span {
+                        color: $blue;
+                    }
+                }
+                .subtitle {
+                    &:after {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+    &.pink-theme {
+        .home-content {
+            .home-content-text {
+                .homeTitle {
+                    span {
+                        color: $pink;
+                    }
+                }
+                .subtitle {
+                    &:after {
+                        color: $pink;
+                    }
+                }
+            }
+        }
+    }
+    &.green-theme {
+        .home-content {
+            .home-content-text {
+                .homeTitle {
+                    span {
+                        color: $green;
+                    }
+                }
+                .subtitle {
+                    &:after {
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+    &.yellow-theme {
+        .home-content {
+            .home-content-text {
+                .homeTitle {
+                    span {
+                        color: $yellow;
+                    }
+                }
+                .subtitle {
+                    &:after {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-content {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    .home-content-text {
+        // width: 100%;
+        .homeTitle {
+            span {
+                margin-left: 10px;
+                color: $blue;
+            }
+        }
+        .subtitle {
+            margin-top: 25px;
+            text-align: center;
+            padding: 0 50px;
+            &:after {
+                color: $blue;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.home-particles {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    div {
+        height: 100%;
+        svg {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .home-content {
+        height: calc(100vh - 50px);
+    }
+    .home-particles {
+        top: -50px;
+    }
+}

@@ -1,0 +1,128 @@
+/* Start Theme Colors */
+body {
+    &.blue-theme {
+        .pages {
+            .main-title {
+                span {
+                    &:after {
+                        border-bottom: 8px solid $blue05;
+                    }
+                    &:hover {
+                        &:after {
+                            border-bottom: 8px solid $blue;
+                            box-shadow: 0 0 40px $blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.pink-theme {
+        .pages {
+            .main-title {
+                span {
+                    &:after {
+                        border-bottom: 8px solid $pink05;
+                    }
+                    &:hover {
+                        &:after {
+                            border-bottom: 8px solid $pink;
+                            box-shadow: 0 0 40px $pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.green-theme {
+        .pages {
+            .main-title {
+                span {
+                    &:after {
+                        border-bottom: 8px solid $green05;
+                    }
+                    &:hover {
+                        &:after {
+                            border-bottom: 8px solid $green;
+                            box-shadow: 0 0 40px $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.yellow-theme {
+        .pages {
+            .main-title {
+                span {
+                    &:after {
+                        border-bottom: 8px solid $yellow05;
+                    }
+                    &:hover {
+                        &:after {
+                            border-bottom: 8px solid $yellow;
+                            box-shadow: 0 0 40px $yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Theme Colors */
+
+.pages {
+    min-height: calc(100vh - 50px);
+    width: 100%;
+    position: relative;
+    padding: 0 0 30px;
+    &.home-page {
+        padding: 0;
+        overflow: hidden;
+    }
+    .main-title {
+        padding: 80px 20px;
+        letter-spacing: 5px;
+        span {
+            position: relative;
+            background-image: linear-gradient(to right, $white, $white01);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            width: fit-content;
+            &:after {
+                content: '';
+                display: block;
+                width: 130px;
+                border-radius: 99px;
+                border-bottom: 8px solid $blue05;
+                @include transition();
+                z-index: -1;
+            }
+            &:hover {
+                background-image: linear-gradient(to right, $white, $white);
+
+                &:after {
+                    width: 100%;
+                    border-bottom: 8px solid $blue;
+                    box-shadow: 0 0 40px $blue;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .pages {
+        .main-title {
+            padding: 50px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .pages {
+        margin-left: 320px;
+        width: calc(100% - 320px);
+    }
+}

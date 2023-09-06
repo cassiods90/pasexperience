@@ -1,0 +1,145 @@
+body {
+    &.blue-theme {
+        .theme-colors {
+            background: rgba($blue, 0.3);
+            &:hover {
+                background: $blue05;
+                box-shadow: $blue 0px 0px 5px, $blue 0px 0px 10px, $blue 0px 0px 20px, $blue 0px 0px 40px;
+            }
+        }
+    }
+    &.pink-theme {
+        .theme-colors {
+            background: rgba($pink, 0.3);
+            &:hover {
+                background: $pink05;
+                box-shadow: $pink 0px 0px 5px, $pink 0px 0px 10px, $pink 0px 0px 20px, $pink 0px 0px 40px;
+            }
+        }
+    }
+    &.green-theme {
+        .theme-colors {
+            background: rgba($green, 0.3);
+            &:hover {
+                background: $green05;
+                box-shadow: $green 0px 0px 5px, $green 0px 0px 10px, $green 0px 0px 20px, $green 0px 0px 40px;
+            }
+        }
+    }
+    &.yellow-theme {
+        .theme-colors {
+            background: rgba($yellow, 0.3);
+            &:hover {
+                background: $yellow05;
+                box-shadow: $yellow 0px 0px 5px, $yellow 0px 0px 10px, $yellow 0px 0px 20px, $yellow 0px 0px 40px;
+            }
+        }
+    }
+}
+
+.theme-mode {
+    .theme-mode-menu {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 11;
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.theme-colors {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 140px;
+    z-index: 10;
+    @include transition();
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    background: rgba($blue, 0.3);
+    border-radius: 10px 0 0 10px;
+    &.show {
+        transform: translateX(0);
+    }
+    .theme-colors-title {
+        padding: 5px 0 10px;
+    }
+    ul {
+        li {
+            width: 35px;
+            height: 30px;
+            cursor: pointer;
+            &:first-child {
+                border-radius: 0 0 0 10px;
+            }
+            &.blue {
+                background-color: $blue;
+            }
+            &.pink {
+                background-color: $pink;
+            }
+            &.green {
+                background-color: $green;
+            }
+            &.yellow {
+                background-color: $yellow;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        &.blue-theme {
+            .theme-colors {
+                &:hover {
+                    background: $blue05;
+                    box-shadow: $blue 0px 0px 5px, $blue 0px 0px 10px, $blue 0px 0px 20px, $blue 0px 0px 40px;
+                }
+            }
+        }
+        &.pink-theme {
+            .theme-colors {
+                &:hover {
+                    background: $pink05;
+                    box-shadow: $pink 0px 0px 5px, $pink 0px 0px 10px, $pink 0px 0px 20px, $pink 0px 0px 40px;
+                }
+            }
+        }
+        &.green-theme {
+            .theme-colors {
+                &:hover {
+                    background: $green05;
+                    box-shadow: $green 0px 0px 5px, $green 0px 0px 10px, $green 0px 0px 20px, $green 0px 0px 40px;
+                }
+            }
+        }
+        &.yellow-theme {
+            .theme-colors {
+                &:hover {
+                    background: $yellow05;
+                    box-shadow: $yellow 0px 0px 5px, $yellow 0px 0px 10px, $yellow 0px 0px 20px, $yellow 0px 0px 40px;
+                }
+            }
+        }
+    }
+
+    .theme-mode {
+        .theme-mode-menu {
+            position: fixed;
+            top: 10px;
+        }
+    }
+
+    .theme-colors {
+        top: 10px;
+        transform: translateX(0);
+        &:hover {
+            background: $blue05;
+            box-shadow: $blue 0px 0px 5px, $blue 0px 0px 10px, $blue 0px 0px 20px, $blue 0px 0px 40px;
+        }
+    }
+}

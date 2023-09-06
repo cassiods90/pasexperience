@@ -1,0 +1,78 @@
+/*======COLORS======*/
+$white: #FFFFFF;
+$black: #000000;
+
+$pink: rgb(255, 34, 255);
+$green: rgb(123, 255, 36);
+$blue: rgb(34, 255, 255);
+$yellow: rgb(255, 199, 34);
+
+$white05: rgba(255, 255, 255, 0.5);
+$pink05: rgba(255, 34, 255, 0.5);
+$green05: rgba(124, 255, 34, 0.5);
+$blue05: rgba(34, 255, 255, 0.5);
+$yellow05: rgba(255, 199, 34, 0.5);
+
+$white01: rgba(255, 255, 255, 0.1);
+$pink01: rgba(255, 34, 255, 0.1);
+$green01: rgba(124, 255, 34, 0.1);
+$blue01: rgba(34, 255, 255, 0.1);
+$yellow01: rgba(255, 199, 34, 0.1);
+
+/*======BACKGROUND COLORS======*/
+$background-black:#000;
+$background-black01:#121214;
+$background-black02:#1E1E26;
+$background-black03: #1b1b1b;
+$background-black04: #19181F;
+
+$background-gradient-01: linear-gradient(90deg, rgb(18, 18, 20), #1E1E26);
+$background-gradient-02: radial-gradient(#121214, #1E1E26);
+$background-gradient-03: linear-gradient(90deg, #000000, #1E1E26);
+
+$background-gradient-blue: linear-gradient(90deg, #000000, rgba(34, 255, 255, 0.1));
+$background-gradient-pink: linear-gradient(90deg, #000000, rgba(255, 34, 255, 0.1));
+$background-gradient-green: linear-gradient(90deg, #000000, rgba(124, 255, 34, 0.1));
+$background-gradient-yellow: linear-gradient(90deg, #000000, rgba(255, 199, 34, 0.1));
+
+/*======FONTS======*/
+$JosefinSansLight:'JosefinSans-Light';
+$JosefinSansRegular:'JosefinSans-Regular';
+$JosefinSansBold:'JosefinSans-Bold';
+$PoppinsLight:'Poppins-Light';
+$PoppinsRegular:'Poppins-Regular';
+$PoppinsSemiBold:'Poppins-SemiBold';
+$PoppinsBold:'Poppins-Bold';
+$AlfaSlabOneRegular:'Alfa Slab One Regular';
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+// @mixin slabone-regular() {
+//   font-family: 'Alfa Slab One', cursive;
+//   font-weight: 400;
+// }
+
+// @mixin poppins-bold() {
+//   font-family: 'Poppins', sans-serif;
+//   font-weight: 700;
+// }
+
+// @mixin poppins-medium() {
+//   font-family: 'Poppins', sans-serif;
+//   font-weight: 600;
+// }
+
+// @mixin poppins-regular() {
+//   font-family: 'Poppins', sans-serif;
+//   font-weight: 400;
+// }
+
+// @mixin poppins-light() {
+//   font-family: 'Poppins', sans-serif;
+//   font-weight: 300;
+// }
+
+
+
