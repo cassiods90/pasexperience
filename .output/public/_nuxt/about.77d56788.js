@@ -1,1 +1,0 @@
-import{a as o,b as s,o as t,e}from"./entry.d1bacccd.js";const a={},c={class:"pages about-page"},n=e("div",{class:"container"},[e("h1",null,"About")],-1),_=[n];function r(d,i){return t(),s("div",c,_)}const u=o(a,[["render",r]]);export{u as default};
