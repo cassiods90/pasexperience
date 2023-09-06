@@ -1,0 +1,52 @@
+.pages {
+    min-height: calc(100vh - 342px);
+
+    &.architecture-page {
+        .obs-banner {
+            span {
+                b {
+                    background: $blue;
+                }
+            }
+        }
+
+        .quick-summary {
+            .quick-summary-text {
+                span {
+                    b {
+                        background: $blue;
+                        color: $white;
+                    }
+                }
+            }
+
+            .quick-summary-buttons {
+                a {
+                    &.skip-ahead-button {
+                        background: $blue;
+                    }
+                    &:hover {
+                        &.skip-ahead-button {
+                            background: $blueHover;
+                        }
+                    }
+                }
+            }
+        }
+
+        .getting-started {
+            .getting-started-text {
+                span {
+                    b {
+                        background: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}

@@ -1,0 +1,31 @@
+/* ---------- COLORS ---------- */
+$white: #ffffff;
+$black: #000000;
+
+$blue: #0066c8;
+$blueHover: #252d6b;
+$red: #d03131;
+$redHover: #6b2525;
+$gray: #d5d5d5;
+$text-color01: #898989;
+$text-color02: #818181;
+$text-color03: #b1b1b1;
+$text-color04: #404040;
+
+/* ---------- BACKGROUND COLORS ---------- */
+$background-button: #d5d5d5;
+$background-black: #000;
+$background-black01: #121214;
+
+$backgroundGradientRed: linear-gradient(180deg, #6a2424 34.7%, #c80000 166.41%);
+$backgroundGradientBlue: linear-gradient(180deg, #242c6a 0%, #0066c8 100%);
+$backgroundGradientGreen: linear-gradient(180deg, #00482a 17.11%, #4cb187 100%);
+
+$backgroundGradientRed2: linear-gradient(180deg, #6b2525 0%, rgba(152, 19, 19, 0.42) 126.76%);
+$backgroundGradientBlue2: linear-gradient(180deg, #252d6b 0%, rgba(19, 73, 153, 0.5) 123.75%);
+$backgroundGradientGreen2: linear-gradient(180deg, #01492b 0%, rgba(68, 166, 125, 0.5) 124.92%);
+
+/* ---------- FONTS ---------- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+$IBMPlexSans: 'IBM Plex Sans';
