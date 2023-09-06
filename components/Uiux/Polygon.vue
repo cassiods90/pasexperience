@@ -1,6 +1,7 @@
 <template>
     <div class="polygon-brands">
-        <div class="polygon-brands-content d-flex flex-wrap justify-content-center align-items-start">
+        <img src="@/assets/image/uiux/pentagon.png" alt="tinder" />
+        <!-- <div class="polygon-brands-content d-flex flex-wrap justify-content-center align-items-start">
             <div class="box-item tinder">
                 <img src="@/assets/image/logos/tinder.png" alt="tinder" />
                 <span class="text">
@@ -54,7 +55,7 @@
                     The user-friendly interface and organization tools offer inspiration for the 'Agency' app's note-sharing feature
                 </span>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

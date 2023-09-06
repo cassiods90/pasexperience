@@ -6,6 +6,9 @@
             <ArchitectureQuickSummary />
             <ArchitectureGettingStarted />
             <ArchitectureUnderstandingProblem />
+            <ArchitectureUxr />
+            <ArchitectureJourneyMapping />
+            <ArchitectureMajorInsights />
         </div>
     </div>
 </template>

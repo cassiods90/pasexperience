@@ -7,6 +7,9 @@
             <UiuxGettingStarted />
             <UiuxUnderstandingProblem />
             <UiuxPolygon />
+            <UiuxUserResearch />
+            <UiuxJourneyMapping />
+            <UiuxUxrInsights />
         </div>
     </div>
 </template>

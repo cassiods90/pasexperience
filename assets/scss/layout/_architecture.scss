@@ -125,3 +125,131 @@
         }
     }
 }
+
+.uxr {
+    margin: 20px 0;
+    .text {
+        &.subtitle {
+            margin: 20px 0;
+        }
+    }
+    .getting-started-text {
+        span {
+            b {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+    img {
+        margin-top: 10px;
+    }
+}
+
+.journey-mapping {
+    &.architecture {
+        margin: 20px 0;
+        .text {
+            &.subtitle {
+                margin: 20px 0;
+            }
+        }
+        .journey-mapping-text {
+            span {
+                b {
+                    background: $blue;
+                    color: $white;
+                }
+            }
+        }
+        img {
+            margin-top: 10px;
+        }
+
+        .journey-mapping-more-text {
+            .more-text-items {
+                margin: 0 20px;
+                .more-text-item {
+                    padding: 0 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.major-insights {
+    margin: 20px 0;
+    .text {
+        &.title {
+            margin: 20px 0;
+        }
+    }
+    .major-insights-text {
+        span {
+            b {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+
+    .major-insights-more-text {
+        background-color: $background-button;
+        padding: 45px 0;
+        margin: 20px 0;
+        position: relative;
+        &:before {
+            background-color: $background-button;
+            content: '';
+            display: block;
+            width: 200vw;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, 0);
+        }
+        .more-text-items {
+            margin: 10px 0;
+            z-index: 2;
+            position: relative;
+            .more-text-item {
+                width: 30%;
+                padding: 10px 0;
+                position: relative;
+                &:nth-child(n + 5):nth-child(-n + 8) {
+                    &:before {
+                        background: #d9b8ff;
+                    }
+                }
+                &:before {
+                    display: block;
+                    content: '';
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 99px;
+                    background: #80caff;
+                    position: absolute;
+                    top: 15px;
+                    left: -15px;
+                }
+                span {
+                    b {
+                        background: $blue;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .major-insights-bottom-text {
+        span {
+            b {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+}
