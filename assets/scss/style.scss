@@ -1,21 +1,14 @@
 @import 'helpers/mixins';
 
 //base
-@import 'base/fonts';
 @import 'base/variables';
 @import 'base/typography';
-@import 'base/buttons';
 @import 'base/global';
-@import 'base/cards';
 
 //layout
-@import 'layout/home';
-@import 'layout/sidebar';
-@import 'layout/themeMode';
 @import 'layout/header';
+@import 'layout/home';
 @import 'layout/pages';
-@import 'layout/about';
-@import 'layout/experiences';
-@import 'layout/academics';
-@import 'layout/skills';
-@import 'layout/languageDropdown';
+@import 'layout/footer';
+@import 'layout/uiux';
+@import 'layout/architecture';

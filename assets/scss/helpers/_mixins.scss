@@ -1,3 +1,4 @@
+/* ----------  MIXINS STYLES ---------- */
 @mixin transition() {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -201,7 +202,8 @@
             font-size: $min-font-size;
             @media screen and (min-width: $min-vw) {
                 font-size: calc(
-                    #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+                    #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+                        ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
                 );
             }
             @media screen and (min-width: $max-vw) {

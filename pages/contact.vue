@@ -1,8 +1,7 @@
 <template>
-    <div class="pages home-page">
+    <div class="pages contact-page">
         <div class="container">
-            <HomeInfos />
-            <HomeTumbs />
+            <h1>Contact</h1>
         </div>
     </div>
 </template>

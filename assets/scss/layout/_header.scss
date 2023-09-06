@@ -1,133 +1,20 @@
-/* Start Theme Colors */
-body {
-    &.blue-theme {
-        .nav-menu {
-            &.mobile {
-                box-shadow: 0 0 20px $blue;
-            }
-            .header-menu-item {
-                &:after {
-                    background: $blue05;
-                }
-                &:focus,
-                &:active,
-                &:hover,
-                &.router-link-active,
-                &.router-link-exact {
-                    color: $blue;
-                }
-            }
-        }
-    }
-    &.pink-theme {
-        .nav-menu {
-            &.mobile {
-                box-shadow: 0 0 20px $pink;
-            }
-            .header-menu-item {
-                &:after {
-                    background: $pink05;
-                }
-                &:focus,
-                &:active,
-                &:hover,
-                &.router-link-active,
-                &.router-link-exact {
-                    color: $pink;
-                }
-            }
-        }
-    }
-    &.green-theme {
-        .nav-menu {
-            &.mobile {
-                box-shadow: 0 0 20px $green;
-            }
-            .header-menu-item {
-                &:after {
-                    background: $green05;
-                }
-                &:focus,
-                &:active,
-                &:hover,
-                &.router-link-active,
-                &.router-link-exact {
-                    color: $green;
-                }
-            }
-        }
-    }
-    &.yellow-theme {
-        .nav-menu {
-            &.mobile {
-                box-shadow: 0 0 20px $yellow;
-            }
-            .header-menu-item {
-                &:after {
-                    background: $yellow05;
-                }
-                &:focus,
-                &:active,
-                &:hover,
-                &.router-link-active,
-                &.router-link-exact {
-                    color: $yellow;
-                }
-            }
-        }
-    }
-}
-/* End Theme Colors */
-
 .header {
-    position: relative;
-    z-index: 2;
-    .header-menu {
-        padding-top: 10px;
-        z-index: 11;
-        position: absolute;
-        left: 50%;
-        margin-left: -15px;
-    }
-    svg {
-        width: 30px;
-        height: 30px;
-        fill: $white;
-    }
 }
 
 .nav-menu {
-    margin: 0 -20px;
-    padding: 15px 0 15px;
+    margin: 0 -10px;
+    padding: 25px 0;
     @include transition();
-    &.mobile {
-        padding: 65px 0 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 110%;
-        // height: 100%;
-        z-index: 10;
-        -ms-transform: translateY(-130%);
-        transform: translateY(-130%);
-        background: $background-black;
-        box-shadow: 0 0 20px $blue;
-        @include transition();
-        &.show {
-            transform: translateY(0);
-        }
-    }
     .header-menu-item {
         position: relative;
         display: block;
-        margin: 20px 0;
+        margin: 0 10px;
         @include transition();
         &:after {
             content: '';
             position: absolute;
             width: 0;
-            background: $blue05;
+            background: $blue;
             height: 1px;
             right: 0;
             bottom: -10px;
@@ -144,31 +31,6 @@ body {
                 right: auto;
                 width: 100%;
             }
-        }
-    }
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-    .header {
-        padding-left: 320px;
-    }
-    .nav-menu {
-        .header-menu-item {
-            margin: 0 10px;
-        }
-    }
-}
-
-@media (min-width: 1300px) {
-    .header {
-        padding-left: 320px;
-    }
-    .nav-menu {
-        .header-menu-item {
-            margin: 0 20px;
         }
     }
 }

@@ -1,7 +1,8 @@
 <template>
-    <div class="header">
-        <HeaderNavDesktop />
-        <HeaderNavMobile />
+    <div class="container" id="scroll-to-top">
+        <div class="d-flex justify-content-end">
+            <HeaderNavbar />
+        </div>
     </div>
 </template>
 
