@@ -16,13 +16,13 @@
                     </span>
                 </div>
                 <div class="bottom-text d-flex justify-content-center align-items-center">
-                    <div class="left-text">
+                    <div class="bottom-text-item left-text">
                         <span class="text home-title text-color01">I thrive on 🏃</span>
                         <span class="text text-color02 subdesc">
                             The sense of fulfilment when sharing my passion for creative design ideas with others
                         </span>
                     </div>
-                    <div class="right-text">
+                    <div class="bottom-text-item right-text">
                         <span class="text home-title text-color01">As well as 🌄</span>
                         <span class="text text-color02 subdesc">
                             Crafting immersive experiences, redefining user interactions and creating impactful digital spaces.

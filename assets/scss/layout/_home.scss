@@ -5,7 +5,7 @@
             width: 41px;
             height: 2px;
             background: $text-color03;
-            margin: 15px 0;
+            margin: 16px 0 10px;
         }
     }
 
@@ -13,15 +13,18 @@
         max-width: 544px;
 
         .subdesc {
-            margin-top: 15px;
+            margin-top: 12px;
         }
         .top-text {
         }
         .bottom-text {
-            margin-top: 20px;
-            .left-text {
-            }
-            .right-text {
+            margin: 33px -10px 0;
+            .bottom-text-item {
+                padding: 0 10px;
+                &.left-text {
+                }
+                &.right-text {
+                }
             }
         }
     }
@@ -30,15 +33,11 @@
 .home-tumbs {
     .tumbs-items {
         .tumb-item {
-            width: 299px;
-            height: 299px;
+            width: 292px;
+            height: 292px;
             background: $backgroundGradientBlue2;
             padding: 0 34px;
-            span {
-                &:first-child {
-                    padding-bottom: 15px;
-                }
-            }
+            cursor: pointer;
             &:first-child {
                 background: $backgroundGradientRed2;
             }

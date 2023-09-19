@@ -1,0 +1,287 @@
+.architecture-banner {
+    padding: 110px 0;
+    background: $backgroundGradientBlue;
+    .left-infos {
+        .text-line {
+            width: 41px;
+            height: 2px;
+            background: $white;
+            margin: 17px 0 10px;
+        }
+    }
+
+    .right-infos {
+        max-width: 544px;
+
+        .subdesc {
+            margin-top: 6px;
+        }
+
+        .top-text {
+        }
+
+        .mid-text {
+            margin-top: 15px;
+            width: 100%;
+        }
+        .bottom-text {
+            margin-top: 15px;
+            .left-text {
+            }
+            .right-text {
+            }
+        }
+    }
+}
+
+.undestanding-problem {
+    &.mapping {
+        .getting-started-more-text {
+            margin: -20px -20px;
+            .box-item {
+                padding: 20px 20px;
+                width: 50%;
+
+                .getting-started-links {
+                    margin-top: 10px;
+                    a {
+                        font-size: 10px;
+                        color: $blue;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .undestanding-problem-text-bottom {
+            margin-top: 40px;
+            .getting-started-links {
+                margin-top: 10px;
+                a {
+                    color: $blue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.uxr {
+    img {
+        margin-top: 45px;
+    }
+}
+
+.journey-mapping {
+    &.mapping {
+        .journey-mapping-more-text {
+            .more-text-items {
+                margin: 0 -30px;
+                .more-text-item {
+                    padding: 0 30px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.major-insights {
+    margin: 20px 0;
+    .text {
+        &.title {
+            margin: 20px 0;
+        }
+    }
+    .major-insights-text {
+        span {
+            b {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+
+    .major-insights-more-text {
+        background-color: $background-button;
+        padding: 45px 0;
+        margin: 20px 0;
+        position: relative;
+        &:before {
+            background-color: $background-button;
+            content: '';
+            display: block;
+            width: 200vw;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, 0);
+        }
+        .more-text-items {
+            margin: 10px 0;
+            z-index: 2;
+            position: relative;
+            .more-text-item {
+                width: 30%;
+                padding: 10px 0;
+                position: relative;
+                &:nth-child(n + 5):nth-child(-n + 8) {
+                    &:before {
+                        background: #d9b8ff;
+                    }
+                }
+                &:before {
+                    display: block;
+                    content: '';
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 99px;
+                    background: #80caff;
+                    position: absolute;
+                    top: 15px;
+                    left: -15px;
+                }
+                span {
+                    b {
+                        background: $blue;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .major-insights-bottom-text {
+        span {
+            b {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+}
+
+.uxr-insights {
+    &.mapping {
+        img {
+            max-width: 407px;
+        }
+    }
+}
+
+.user-personas {
+    .user-personas-more-text {
+        .more-text-items {
+            width: 100%;
+            .more-item {
+                width: 100%;
+                margin: 20px 0;
+                .more-item-left {
+                    div {
+                        width: 313px;
+                        height: 325px;
+                        border-radius: 10px;
+                        img {
+                            border-radius: 10px;
+                        }
+                    }
+                }
+                .more-item-right {
+                    max-width: 538px;
+                }
+            }
+        }
+    }
+}
+
+.how-might-we {
+    &.mapping {
+        .ship-tags {
+            .ship-tags-item {
+                background-color: #0066c8;
+                &.could-item {
+                    background-color: #ffa41b;
+                }
+                &.should-item {
+                    background-color: #d9b8ff;
+                }
+            }
+        }
+    }
+}
+
+.key-needs {
+    &.mapping {
+        &:before {
+            background: linear-gradient(180deg, #242c6a 0%, #0066c8 100%);
+            content: '';
+            display: block;
+            width: 200vw;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, 0);
+        }
+    }
+}
+
+.sketing-ideation {
+    &.mapping {
+        .sketing-ideation-more-text {
+            .more-text-items {
+                width: 100%;
+                .more-item {
+                    width: 100%;
+                    margin: 20px 0;
+                    .more-item-left {
+                        .sketching-img {
+                            width: 448px;
+                            height: 166px;
+                        }
+                        .more-text-item {
+                            width: 475px;
+                        }
+                    }
+                    .more-item-right {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hifi-design {
+    &.mapping {
+        &:before {
+            background: linear-gradient(180deg, #242c6a 0%, #0066c8 100%);
+        }
+        .hifi-design-more-text {
+            .more-text-items {
+                .more-text-left {
+                    width: 588px;
+                    height: 425px;
+                    margin-right: -170px;
+                }
+                .more-text-right {
+                    width: 727px;
+                    height: 727px;
+                    border-radius: 727px;
+                    margin-left: -170px;
+                    .more-text-item {
+                        padding-left: 360px;
+                        span {
+                            color: #065ebb;
+                            font-size: 28px;
+                        }
+
+                        a {
+                            background: #065ebb;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

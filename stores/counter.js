@@ -1,24 +1,27 @@
 import { defineStore } from 'pinia'
 
-export const useCounter = defineStore('counter', {
+export const useSubmenuActive = defineStore('submenuActive', {
     state: function () {
         return {
-            count: 0,
+            toggleSubmenu: false,
         }
     },
 
     getters: {
-        getCounter(state) {
-            return `Counter ${state.count}`
+        getToggleSubmenu() {
+            return this.toggleSubmenu
         },
     },
 
     actions: {
-        increment() {
-            this.count++
+        setTrue() {
+            this.toggleSubmenu = true
         },
-        decrement() {
-            this.count--
+        setFalse() {
+            this.toggleSubmenu = false
+        },
+        setToggle() {
+            this.toggleSubmenu = !this.toggleSubmenu
         },
     },
 })

@@ -1,25 +1,14 @@
 .pages {
-    min-height: calc(100vh - 342px);
+    min-height: calc(100vh - 348px);
 
-    &.architecture-page {
-        .obs-banner {
-            span {
-                b {
-                    background: $blue;
-                }
-            }
+    &.home-page {
+        .container {
+            max-width: 928px;
         }
+    }
 
+    &.mapping-page {
         .quick-summary {
-            .quick-summary-text {
-                span {
-                    b {
-                        background: $blue;
-                        color: $white;
-                    }
-                }
-            }
-
             .quick-summary-buttons {
                 a {
                     &.skip-ahead-button {
@@ -33,18 +22,9 @@
                 }
             }
         }
-
-        .getting-started {
-            .getting-started-text {
-                span {
-                    b {
-                        background: $blue;
-                    }
-                }
-            }
-        }
     }
 }
+
 @media (min-width: 768px) {
 }
 

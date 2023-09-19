@@ -1,0 +1,40 @@
+.inc-banner {
+    padding: 110px 0;
+    background: $backgroundGradientGreen;
+    .left-infos {
+        .text-line {
+            width: 41px;
+            height: 2px;
+            background: $white;
+            margin: 17px 0 10px;
+        }
+    }
+
+    .right-infos {
+        max-width: 544px;
+
+        .subdesc {
+            margin-top: 6px;
+        }
+
+        .top-text {
+        }
+
+        .mid-text {
+            margin-top: 15px;
+            width: 100%;
+        }
+        .bottom-text {
+            margin-top: 15px;
+            .left-text {
+            }
+            .right-text {
+            }
+        }
+    }
+}
+
+.inc-image-banner {
+    width: 100%;
+    height: calc(100vh - 796px);
+}

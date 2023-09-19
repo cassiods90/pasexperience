@@ -1,22 +1,43 @@
 <template>
     <div class="home-tumbs">
         <div class="tumbs-items d-flex justify-content-between align-items-center">
-            <div class="tumb-item d-flex flex-column justify-content-center align-items-start">
-                <span class="text home-bigtitle white">Creative <br />Matching</span>
-                <span class="text white">Helping creatives foster successful relations</span>
-            </div>
+            <NuxtLink to="/agency" @click="setSubmenuTrue" class="tumb-item d-flex flex-column justify-content-center align-items-start">
+                <span class="text home-subtitle white">Mobile | Agency (app)</span>
+                <span class="text home-bigtitle white">Matching w/ <br />Creatives</span>
+                <span class="text home-text white">Helping creatives foster successful relations</span>
+            </NuxtLink>
 
-            <div class="tumb-item d-flex flex-column justify-content-center align-items-start">
+            <NuxtLink to="/mapping" @click="setSubmenuTrue" class="tumb-item d-flex flex-column justify-content-center align-items-start">
+                <span class="text home-subtitle white">Desktop | Mapping (feat.)</span>
                 <span class="text home-bigtitle white">Map your <br />Career</span>
-                <span class="text white">Ensuring alignment between today's human resources and tomorrow's market demand</span>
-            </div>
+                <span class="text home-text white">Ensuring alignment between today's human resources and tomorrow's market demand</span>
+            </NuxtLink>
 
-            <div class="tumb-item d-flex flex-column justify-content-center align-items-start">
+            <NuxtLink to="/575inc" @click="setSubmenuTrue" class="tumb-item d-flex flex-column justify-content-center align-items-start">
+                <span class="text home-subtitle white">Visual Design | 575inc</span>
                 <span class="text home-bigtitle white">Brand ID +<br />D. System</span>
-                <span class="text white">575inc branding op.</span>
-            </div>
+                <span class="text home-text white">575inc branding op.</span>
+            </NuxtLink>
         </div>
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useSubmenuActive } from '@/stores/counter'
+
+const submenu = useSubmenuActive()
+
+function setSubmenuTrue() {
+    console.log('true')
+    submenu.setTrue()
+}
+
+function setSubmenuFalse() {
+    console.log('false')
+    submenu.setFalse()
+}
+
+function setSubmenuToggle() {
+    submenu.setToggle()
+}
+</script>
