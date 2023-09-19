@@ -55,7 +55,7 @@
                 <span class="text semibold">Social Blade</span>
                 <div class="box-item-content d-flex justify-content-start align-items-center">
                     <div class="box-item-content-img">
-                        <img src="@/assets/image/logos/socialBlade.png" alt="Social Blade" />
+                        <img src="@/assets/image/logos/socialblade.png" alt="Social Blade" />
                     </div>
                     <div class="box-item-content-text">
                         <span class="text">
