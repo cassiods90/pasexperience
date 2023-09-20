@@ -17,7 +17,7 @@
             background: $blue;
             height: 1px;
             right: 0;
-            bottom: -10px;
+            bottom: -3px;
             @include transition();
         }
         &:focus,
@@ -54,6 +54,7 @@
         @include transition();
         .header-menu-item {
             margin: 10px 0;
+            text-transform: capitalize;
         }
     }
 }

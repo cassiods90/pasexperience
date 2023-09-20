@@ -17,7 +17,7 @@
         </div>
 
         <div class="getting-started-links d-flex justify-content-start align-items-center">
-            <span class="text">*Online:</span>
+            <span class="text">*Online: &nbsp;</span>
             <a
                 href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ec.europa.eu/assets/eac/culture/library/reports/creative-partnerships_en.pdf"
                 target="_blank"
@@ -30,7 +30,7 @@
             <div class="box-item box-left">
                 <span class="text title text-color04">Role</span>
                 <span class="text text-color04">
-                    Group project, worked with two other UX Designers; <br /><br />
+                    Solo project, guidance provided by ADPlist mentors; <br /><br />
                     My roles included project management, UX research, analysis, strategy, ideation, prototyping and testing;
                 </span>
             </div>

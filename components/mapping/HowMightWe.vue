@@ -22,30 +22,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Career Recommendations</span>
+                    <span class="text title title-spaces text-color04">Career Recommendations</span>
                     <span class="text">
                         How might we provide tailored career recommendations based on users’ skills, interests, and market demand?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Develop an algorithm that analyzes user data, skills, preferences, and market demand, to provide
                         accurate and tailored career recommendations
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Real-time Market Insights</span>
+                    <span class="text title title-spaces text-color04">Real-time Market Insights</span>
                     <span class="text">
                         How might we integrate real-time data to provide up-to-date information on job market trends and demand?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Develop a data-driven system that continuously collects and analyzes job market information,
                         trends, demand, and salary ranges
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Challenges & Peer Reviews</span>
+                    <span class="text title title-spaces text-color04">Challenges & Peer Reviews</span>
                     <span class="text">
                         How might we provide engaging challenges to practice real-life scenarios relevant to their desired careers?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> By allowing users to experience real-life scenarios through peer reviews and feedback, and
                         supporting each other
                     </span>
@@ -58,30 +58,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Mentorship & Networking</span>
+                    <span class="text title title-spaces text-color04">Mentorship & Networking</span>
                     <span class="text">
                         How might we facilitate mentorship connections between experienced professionals and aspiring workers?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Create a platform for mentors and mentees to connect in discussion forums and virtual events, and
                         schedule mentorship sessions
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Skill Assessment & Gaps</span>
+                    <span class="text title title-spaces text-color04">Skill Assessment & Gaps</span>
                     <span class="text">
                         How might we offer insights on skill gaps and recommend specific re-skilling or upskilling opportunities?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Create an interactive skill assessment tool that evaluates users' existing skills, identifies gaps,
                         and highlights areas for improvement
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Learning Resources</span>
+                    <span class="text title title-spaces text-color04">Learning Resources</span>
                     <span class="text">
                         How might we categorize and recommend relevant courses based on the user's career goals and skill gaps?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Curate a comprehensive library of learning resources, covering a wide range of skills and
                         industries via search engine
                     </span>
@@ -94,30 +94,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Gamified Achievements</span>
+                    <span class="text title title-spaces text-color04">Gamified Achievements</span>
                     <span class="text">
                         How might we allow users to showcase their achievements and progress within their profiles?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Design a progress tracking system that allows users to monitor their skill development journey
                         through a gamified approach
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Career Path Visualisation</span>
+                    <span class="text title title-spaces text-color04">Career Path Visualisation</span>
                     <span class="text">
                         How might we help users explore various career paths and understand their interconnectedness?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Create an interactive visualization tool that presents different career paths, requirements, and
                         growth potential
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Learning Platforms</span>
+                    <span class="text title title-spaces text-color04">Learning Platforms</span>
                     <span class="text">
                         How might we enable users to showcase completed courses or certifications within their profiles?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Establish partnerships or integrations with reputable online learning platforms to provide users
                         with a seamless learning experience
                     </span>

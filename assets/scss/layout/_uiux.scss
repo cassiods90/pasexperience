@@ -2,6 +2,12 @@
     padding: 110px 0;
     background: $backgroundGradientRed;
     .left-infos {
+        .home-bigtitle {
+            max-width: 240px;
+        }
+        .title {
+            max-width: 110px;
+        }
         .text-line {
             width: 41px;
             height: 2px;
@@ -53,7 +59,7 @@ span {
 
 .quick-summary {
     .quick-summary-buttons {
-        margin: 15px -10px 0;
+        margin: 45px -10px 0;
         a {
             margin: 0 10px;
             padding: 10px 20px;
@@ -82,7 +88,7 @@ span {
 
 .getting-started {
     .getting-started-links {
-        margin: 10px 0 0;
+        margin: 20px 0 0;
         a {
             color: $blue;
             text-decoration: underline;
@@ -90,8 +96,11 @@ span {
     }
 
     .getting-started-box {
-        margin: 20px 0 0;
+        margin: 45px 0 0;
         .text {
+            &.title {
+                margin-bottom: 7px;
+            }
             .tex-subtitle {
                 margin: 0;
             }
@@ -303,7 +312,7 @@ span {
         position: relative;
     }
     &:before {
-        background: linear-gradient(180deg, #6a2424 34.7%, #c80000 166.41%);
+        background: linear-gradient(180deg, #6a2424 0%, #d03131 100%);
         content: '';
         display: block;
         width: 200vw;
@@ -455,7 +464,7 @@ span {
 
 .development-handoff {
     position: relative;
-    margin: 130px 0;
+    margin: 45px 0 0;
 
     .development-handoff-more-text {
         position: relative;

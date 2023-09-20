@@ -15,7 +15,7 @@
 
         <div class="quick-summary-buttons d-flex justify-content-end align-items-center">
             <a class="slide-button text text-color04">Slide Deck</a>
-            <a class="skip-ahead-button text white">Skip ahead to final design</a>
+            <a href="#hifiDesign" class="skip-ahead-button text white">Skip ahead to final design</a>
         </div>
     </div>
 </template>

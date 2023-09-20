@@ -22,30 +22,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">User Matching</span>
+                    <span class="text title title-spaces text-color04">User Matching</span>
                     <span class="text">
                         How might we simplify the user matching process to minimize friction and maximize the number of successful connections?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Design a straightforward user matching process that minimizes steps and ensures a seamless
                         experience
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Administrative Work</span>
+                    <span class="text title title-spaces text-color04">Administrative Work</span>
                     <span class="text">
                         How might we automate scheduling and task assignment to simplify project management and improve efficiency?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Implement customizable project templates and task boards to streamline project setup and facilitate
                         task assignment
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Scheduling</span>
+                    <span class="text title title-spaces text-color04">Scheduling</span>
                     <span class="text">
                         How might we provide flexible scheduling options for different time zones and user availability?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Provide real-time availability indicators for users to quickly assess the optimal time slots for
                         scheduling meetings or collaborative activities
                     </span>
@@ -58,30 +58,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Effective Comms</span>
+                    <span class="text title title-spaces text-color04">Effective Comms</span>
                     <span class="text">
                         How might we provide a searchable messaging history that facilitates information retrieval and organization?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Implement a search and tagging system that allows users to easily find past conversations, files,
                         and relevant information
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Creative Alignment</span>
+                    <span class="text title title-spaces text-color04">Creative Alignment</span>
                     <span class="text">
                         How might we gather user feedback to continuously improve the accuracy of a creative alignment matching?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Implement a rating review system that allows users to leave reviews and ratings, helping others
                         make informed partnership decisions
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Notes & Documentation</span>
+                    <span class="text title title-spaces text-color04">Notes & Documentation</span>
                     <span class="text">
                         How might we enable note sharing between digital media creators and their creative partners?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Incorporate organization tools, and search functionalities, to help users efficiently manage and
                         retrieve their notes within the app
                     </span>
@@ -94,30 +94,30 @@
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Workshops</span>
+                    <span class="text title title-spaces text-color04">Workshops</span>
                     <span class="text">
                         How might we personalize workshop recommendations based on users' interests, goals, and skill levels?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Personalize workshop recommendations based on users' interests, ensuring access to content that
                         aligns with their specific needs
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Pro Tools</span>
+                    <span class="text title title-spaces text-color04">Pro Tools</span>
                     <span class="text">
                         How might we provide a scalable infrastructure to grow the 'Agency' ecosystem?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Enable privacy settings that maintain the security of Agency groups while allowing for seamless
                         collaboration between different teams
                     </span>
                 </div>
 
                 <div class="more-text-item">
-                    <span class="text semibold title-spaces text-color04">Cross-platform Connectivity</span>
+                    <span class="text title title-spaces text-color04">Cross-platform Connectivity</span>
                     <span class="text">
                         How might we provide analytics on content performance across social platforms?
-                        <br />
+                        <br /><br />
                         <strong>Solution:</strong> Develop intuitive user interfaces that simplify the sharing process between the 'Agency' app and
                         other social media platforms
                     </span>

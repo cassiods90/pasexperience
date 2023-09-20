@@ -3,9 +3,9 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="left-infos d-flex flex-column justify-content-center align-items-start">
-                    <span class="text home-bigtitle white">Pathways for <br />Career Growth</span>
+                    <span class="text home-bigtitle white">Pathways for Career Growth</span>
                     <div class="text-line"></div>
-                    <span class="text title text-color03">Mapping <br />(LinkedIn feature)</span>
+                    <span class="text title text-color03">Mapping (LinkedIn feature)</span>
                 </div>
 
                 <div class="right-infos d-flex flex-column justify-content-center align-items-start">

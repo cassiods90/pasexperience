@@ -16,7 +16,7 @@
         </div>
 
         <div class="getting-started-links d-flex justify-content-start align-items-center">
-            <span class="text">*Online:</span>
+            <span class="text">*Online: &nbsp;</span>
             <a
                 href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages"
                 target="_blank"

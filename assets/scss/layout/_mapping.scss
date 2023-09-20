@@ -2,6 +2,12 @@
     padding: 110px 0;
     background: $backgroundGradientBlue;
     .left-infos {
+        .home-bigtitle {
+            max-width: 240px;
+        }
+        .title {
+            max-width: 150px;
+        }
         .text-line {
             width: 41px;
             height: 2px;

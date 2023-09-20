@@ -24,7 +24,7 @@
                     (29%) than an astronaut (11%) when they grow up*
                 </span>
                 <div class="getting-started-links d-flex justify-content-start align-items-center">
-                    <span class="text">*Online:</span>
+                    <span class="text">*Online: &nbsp;</span>
                     <a href="https://signalfire.com/creator-economy/" target="_blank" class="text"
                         >What is the creator economy ? Influencer tools and trends</a
                     >
@@ -43,7 +43,7 @@
                     jobs, in the 9 economies studied*
                 </span>
                 <div class="getting-started-links d-flex justify-content-start align-items-center">
-                    <span class="text">*Online:</span>
+                    <span class="text">*Online: &nbsp;</span>
                     <a
                         href="https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/technology-media-telecommunications/deloitte-uk-future-creative-economy-report-final.pdf"
                         target="_blank"

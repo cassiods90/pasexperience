@@ -1,5 +1,5 @@
 <template>
-    <div class="hifi-design mapping component-spaces">
+    <div class="hifi-design mapping component-spaces" id="hifiDesignMapping">
         <span class="text title white title-spaces">Refined Hi-fi Design</span>
 
         <div class="hifi-design-text">
@@ -27,7 +27,13 @@
                 <div class="more-text-right d-flex justify-content-center align-items-center">
                     <div class="more-text-item">
                         <span class="text semibold"> Would you like to interact with Mapping’s prototype? </span>
-                        <a href="https://www.google.com" target="_blank" class="text semibold"> Click Here </a>
+                        <a
+                            href="https://www.figma.com/proto/xt1nqPyAu3QENbyTmC97hQ/1.-pasexperience.com?type=design&node-id=1023-2089&t=905tQq4WBB4rcPgN-1&scaling=contain&page-id=760%3A191&starting-point-node-id=1023%3A2089&mode=design"
+                            target="_blank"
+                            class="text semibold"
+                        >
+                            Click Here
+                        </a>
                     </div>
                 </div>
             </div>

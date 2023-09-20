@@ -58,9 +58,7 @@
                         <img src="@/assets/image/logos/socialblade.png" alt="Social Blade" />
                     </div>
                     <div class="box-item-content-text">
-                        <span class="text">
-                            The gig-based model highlights the effectiveness of modular service offerings, like workshop-based experiences
-                        </span>
+                        <span class="text"> Insights on social media performance for data-driven decisions and audience engagement analytics </span>
                     </div>
                 </div>
             </div>

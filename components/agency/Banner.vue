@@ -3,9 +3,9 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="left-infos d-flex flex-column justify-content-center align-items-start">
-                    <span class="text home-bigtitle white">Creative Partner <br />Matching </span>
+                    <span class="text home-bigtitle white">Creative Partner Matching </span>
                     <div class="text-line"></div>
-                    <span class="text title text-color03">Agency <br />(mobile app)</span>
+                    <span class="text title text-color03">Agency (mobile app)</span>
                 </div>
 
                 <div class="right-infos d-flex flex-column justify-content-center align-items-start">

@@ -4,7 +4,7 @@
             <div class="left-infos d-flex flex-column justify-content-center align-items-start">
                 <span class="text home-bigtitle text-color01">Pedro Aires<br />Serrano </span>
                 <div class="text-line"></div>
-                <span class="text title text-color03">A constant work <br />in progress</span>
+                <span class="text home-subtitle text-color03">A constant work <br />in progress</span>
             </div>
 
             <div class="right-infos d-flex flex-column justify-content-center align-items-center">

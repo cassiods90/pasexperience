@@ -45,7 +45,7 @@
                 their skills rather than relying on an employer.”*
             </span>
             <div class="getting-started-links d-flex justify-content-start align-items-center">
-                <span class="text">*Online:</span>
+                <span class="text">*Online: &nbsp;</span>
                 <a
                     href="https://www.pwc.com/gx/en/services/people-organisation/publications/workforce-of-the-future.html"
                     target="_blank"

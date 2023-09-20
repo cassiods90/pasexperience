@@ -1,3 +1,19 @@
+body {
+    &.home-page-activy {
+        footer {
+            .back-to-top,
+            .more-ux {
+                display: none !important;
+            }
+        }
+    }
+    &.inc-page-activy {
+        footer {
+            display: none !important;
+        }
+    }
+}
+
 .footer {
     padding: 75px 0 40px;
     .footer-links {

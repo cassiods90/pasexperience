@@ -3,7 +3,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="left-infos d-flex flex-column justify-content-center align-items-start">
-                    <span class="text home-bigtitle white">Brand ID &<br />Design System</span>
+                    <span class="text home-bigtitle white">Brand ID & Design System</span>
                     <div class="text-line"></div>
                     <span class="text title text-color03">575 <br />(creative agency)</span>
                 </div>

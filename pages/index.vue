@@ -7,4 +7,12 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+onMounted(() => {
+    document.body.classList.add('home-page-activy')
+})
+
+onBeforeUnmount(() => {
+    document.body.classList.remove('home-page-activy')
+})
+</script>

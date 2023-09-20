@@ -1,5 +1,5 @@
 <template>
-    <div class="hifi-design component-spaces">
+    <div class="hifi-design component-spaces" id="hifiDesign">
         <span class="text title white title-spaces">Refined Hi-fi Design </span>
 
         <div class="hifi-design-text">
@@ -27,7 +27,13 @@
                 <div class="more-text-right d-flex justify-content-center align-items-center">
                     <div class="more-text-item">
                         <span class="text semibold"> Would you like to interact with Agency’s prototype? </span>
-                        <a href="https://www.google.com" target="_blank" class="text semibold"> Click Here </a>
+                        <a
+                            href="https://www.figma.com/proto/xt1nqPyAu3QENbyTmC97hQ/1.-pasexperience.com?type=design&node-id=929-2150&t=v2vQ25fyOvYO5v5q-1&scaling=scale-down&page-id=760%3A173&starting-point-node-id=1064%3A759&mode=design"
+                            target="_blank"
+                            class="text semibold"
+                        >
+                            Click Here
+                        </a>
                     </div>
                 </div>
             </div>

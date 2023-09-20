@@ -3,7 +3,8 @@
     display: block;
     @include fluid-type(320px, 1680px, 14px, 14px);
     font-family: $IBMPlexSans;
-    color: $black;
+    // color: $black;
+    color: $text-color04;
     font-weight: 400;
     text-align: left;
     margin: 0;
@@ -29,20 +30,40 @@
     &.home-bigtitle {
         @include fluid-type(320px, 1680px, 28px, 32px);
         font-weight: 600;
+        line-height: 1;
     }
     &.home-title {
-        @include fluid-type(320px, 1680px, 10px, 20px);
+        @include fluid-type(320px, 1680px, 16px, 20px);
         font-weight: 600;
     }
     &.home-subtitle {
-        @include fluid-type(320px, 1680px, 16px, 18px);
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        @include fluid-type(320px, 1680px, 20px, 24px);
+        line-height: 1;
     }
     &.home-text {
         font-weight: 300;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         min-height: 54px;
         margin-top: 54px;
+    }
+    &.home-tumbstitle {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        @include fluid-type(320px, 1680px, 16px, 18px);
+    }
+    &.modalops {
+        @include fluid-type(320px, 1680px, 26px, 32px);
+        color: #27ae60;
+        font-weight: 700;
+    }
+    &.modaltitle {
+        @include fluid-type(320px, 1680px, 16px, 18px);
+        font-weight: 600;
+        color: #4a4a4a;
+    }
+    &.modaloption {
+        @include fluid-type(320px, 1680px, 16px, 18px);
+        font-weight: 300;
+        color: #4a4a4a;
     }
 
     /* ---------- FONTS VARIATIONS ---------- */
