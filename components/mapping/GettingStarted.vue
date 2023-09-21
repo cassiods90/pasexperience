@@ -17,10 +17,7 @@
 
         <div class="getting-started-links d-flex justify-content-start align-items-center">
             <span class="text">*Online: &nbsp;</span>
-            <a
-                href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages"
-                target="_blank"
-                class="text"
+            <a href="https://ec.europa.eu/assets/eac/culture/library/reports/creative-partnerships_en.pdf" target="_blank" class="text"
                 >Jobs lost, jobs gained: What the future of work will mean for jobs, skills, and wages</a
             >
         </div>

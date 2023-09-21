@@ -26,7 +26,7 @@
                 <span class="text home-subtitle">Universidade Lusíada Lisboa</span>
             </div>
             <div class="about-me-right">
-                <a href="/miaThesis.pdf" target="_blank" class="text">Download MIA Thesis</a>
+                <a href="https://www.lis.ulusiada.pt/pt-pt/provas/mialicpedroserrano.aspx" target="_blank" class="text">Download MIA Thesis</a>
                 <span class="text title title-spaces">Masters in Architecture (MIA)</span>
                 <span class="text"
                     >As a student I was provided with the theoretical and practical skills necessary for the practice of Architecture. Expressed in
@@ -74,7 +74,7 @@
 
         <div class="about-me-text d-flex justify-content-between align-items-start">
             <div class="about-me-left">
-                <span class="text home-subtitle">Video & Design Portfolio</span>
+                <span class="text home-subtitle">Video & Design</span>
             </div>
             <div class="about-me-right">
                 <iframe width="250" height="140" src="https://www.youtube.com/embed/wXkafQWeyWI" allowfullscreen="true"> </iframe>

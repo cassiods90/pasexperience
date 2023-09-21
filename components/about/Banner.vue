@@ -14,7 +14,7 @@
                         </div>
                         <div class="banner-content-right">
                             <a href="/myCV.pdf" target="_blank" class="text title white d-flex justify-content-center align-items-center"
-                                >Dowload CV</a
+                                >Download CV</a
                             >
                         </div>
                     </div>

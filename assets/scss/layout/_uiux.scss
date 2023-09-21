@@ -43,7 +43,7 @@
 span {
     b {
         background: $background-button;
-        color: $text-color04;
+        color: $black;
     }
 }
 .component-spaces {
@@ -112,6 +112,12 @@ span {
             width: 290px;
             &.box-right {
                 width: 600px;
+                .text-left {
+                    padding-right: 10px;
+                }
+                .text-right {
+                    padding-left: 43px;
+                }
             }
         }
     }
