@@ -5,9 +5,9 @@
             <img src="@/assets/image/uiux/incbanner.png" alt="incbanner" />
         </div>
 
-        <div class="inc-modal d-flex justify-content-center align-items-center" @click="closeModal()">
+        <div class="inc-modal d-flex justify-content-center align-items-center">
             <div class="inc-modal-inner">
-                <div class="icon-close">
+                <div class="icon-close" @click="closeModal()">
                     <SvgsClose />
                 </div>
 

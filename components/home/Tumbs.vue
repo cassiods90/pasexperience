@@ -3,7 +3,7 @@
         <div class="tumbs-items d-flex justify-content-between align-items-center">
             <NuxtLink to="/agency" @click="setSubmenuTrue" class="tumb-item d-flex flex-column justify-content-center align-items-start">
                 <span class="text home-tumbstitle white">Mobile | Agency (app)</span>
-                <span class="text home-bigtitle white">Matching w/ <br />Creatives</span>
+                <span class="text home-bigtitle white">Match with/ <br />Creatives</span>
                 <span class="text home-text white">Helping creatives foster successful relations</span>
             </NuxtLink>
 

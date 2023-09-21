@@ -1,7 +1,8 @@
 <template>
     <div class="pages about-page">
+        <AboutBanner />
         <div class="container">
-            <h1>About</h1>
+            <AboutMyInfos />
         </div>
     </div>
 </template>
