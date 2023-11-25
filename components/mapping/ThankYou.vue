@@ -3,7 +3,7 @@
         <div class="go-back-inner d-flex flex-column justify-content-start align-items-start">
             <div class="go-back-title title-spaces">
                 <div class="line"></div>
-                <span class="text title text-color01">Thank you for reading</span>
+                <span class="text title regular text-color01">Thank you for reading</span>
             </div>
 
             <div class="go-back-sides d-flex justify-content-between align-items-start">

@@ -1,11 +1,11 @@
 const client_manifest = {
-  "_swiper-bundle.b0ce57f1.js": {
+  "_swiper-bundle.7a2796b9.js": {
     "resourceType": "script",
     "module": true,
     "css": [
       "swiper-bundle.70f9e27f.css"
     ],
-    "file": "swiper-bundle.b0ce57f1.js",
+    "file": "swiper-bundle.7a2796b9.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -335,7 +335,7 @@ const client_manifest = {
   "layouts/default.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "default.66e48602.js",
+    "file": "default.6a49a132.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -351,7 +351,7 @@ const client_manifest = {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-404.d256c147.js",
+    "file": "error-404.7fd9b556.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -371,7 +371,7 @@ const client_manifest = {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-500.2d0e9a20.js",
+    "file": "error-500.9f0e106c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -403,7 +403,7 @@ const client_manifest = {
       "layouts/default.vue",
       "virtual:nuxt:C:/Users/cassi/OneDrive/Documentos/Meus Arquivos/Freelances/pasexperience/.nuxt/error-component.mjs"
     ],
-    "file": "entry.48f89494.js",
+    "file": "entry.2654331b.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
@@ -439,7 +439,7 @@ const client_manifest = {
       "bannerNew.668332ec.png",
       "pdf.6f2ec2da.png"
     ],
-    "file": "about.96ccb4bf.js",
+    "file": "about.fe17fcd4.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -491,10 +491,10 @@ const client_manifest = {
       "Agency15.40d031d7.png",
       "Agency16.bbcc4e4e.png"
     ],
-    "file": "agency.4aa4021b.js",
+    "file": "agency.b18d76cc.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_swiper-bundle.b0ce57f1.js"
+      "_swiper-bundle.7a2796b9.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/agency.vue"
@@ -627,7 +627,7 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.87fde9ba.js",
+    "file": "index.69b35196.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -659,10 +659,10 @@ const client_manifest = {
       "Mapping9.23d16b1a.png",
       "Mapping10.54ee80d3.png"
     ],
-    "file": "mapping.435e5770.js",
+    "file": "mapping.76982d99.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_swiper-bundle.b0ce57f1.js"
+      "_swiper-bundle.7a2796b9.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/mapping.vue"
@@ -770,7 +770,7 @@ const client_manifest = {
   "pages/ux-ui-work.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ux-ui-work.c2093d8a.js",
+    "file": "ux-ui-work.73481b56.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -783,7 +783,7 @@ const client_manifest = {
     "assets": [
       "youtubeBanner.734dd7f6.png"
     ],
-    "file": "youtube.ab243113.js",
+    "file": "youtube.527aaf1c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -807,7 +807,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "error-component.dc974175.js",
+    "file": "error-component.cc62a96a.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],

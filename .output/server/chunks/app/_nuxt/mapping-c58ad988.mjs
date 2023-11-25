@@ -432,7 +432,7 @@ const __nuxt_component_21 = _sfc_main$2;
 const _sfc_main$1 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$4;
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "go-back mapping component-spaces" }, _attrs))}><div class="go-back-inner d-flex flex-column justify-content-start align-items-start"><div class="go-back-title title-spaces"><div class="line"></div><span class="text title text-color01">Thank you for reading</span></div><div class="go-back-sides d-flex justify-content-between align-items-start"><div class="go-back-left">`);
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "go-back mapping component-spaces" }, _attrs))}><div class="go-back-inner d-flex flex-column justify-content-start align-items-start"><div class="go-back-title title-spaces"><div class="line"></div><span class="text title regular text-color01">Thank you for reading</span></div><div class="go-back-sides d-flex justify-content-between align-items-start"><div class="go-back-left">`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/agency",
     class: "go-back-card d-flex justify-content-start align-items-center"
@@ -579,4 +579,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=mapping-b1fa9ba5.mjs.map
+//# sourceMappingURL=mapping-c58ad988.mjs.map
