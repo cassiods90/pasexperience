@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="scroll-to-top">
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-center">
             <HeaderNavbar />
         </div>
     </div>

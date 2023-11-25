@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     // Global page headers: https://go.nuxtjs.dev/config-head
     app: {
         head: {
-            title: 'pasExperience',
+            title: 'pasexperience © 2023',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

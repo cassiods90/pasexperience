@@ -1,89 +1,54 @@
 <template>
-    <div class="about-me component-spaces">
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle title-spaces">2023</span>
-                <span class="text home-subtitle">Flag Lisboa</span>
-            </div>
-            <div class="about-me-right">
-                <span class="text title title-spaces">Specialized UX/UI</span>
-                <span class="text"
+    <div class="my-infos component-spaces">
+        <div class="my-infos-items">
+            <div class="my-infos-item d-flex flex-column justify-content-between align-items-start">
+                <div class="my-infos-item-title title-spaces d-flex justify-content-between align-items-center">
+                    <span class="text title medium text-color01">UX/UI Design (Specialized)</span>
+                    <a href="http://www.google.com" target="_blank" class="text medium white">Download Final Report</a>
+                </div>
+                <span class="text text-color01"
                     >An immersive project-based program focused on learning best-in-practice end-to-end UX processes. During my time at Flag Lisboa, I
-                    was able to work on various individual and group projects. These projects became an invaluable resource to further establish
-                    guidelines for UX Research, when responsible for product design research and my main role meant understanding user behaviours,
-                    needs, motivations and problems; Information Architecture, when responsible for structuring websites and applications, in order to
-                    guarantee a positive experience for the user; and Visual Design, as a specialist who transforms prototypes into visual designs,
-                    putting my knowledge about graphic elements, brands and styles into practice. Over this 14-week period I worked on productivity
-                    apps, client projects and e-commerce sites. I practised the entire User Experience Design process, from user research to high
-                    fidelity prototypes</span
+                    was able to work on multiple individual/group projects, further establishing guidelines for UXR, when responsible for product
+                    research and my main role meant understanding user behaviours, needs, motivations and problems; I.A., when responsible for
+                    structuring websites and applications, in order to guarantee a positive experience for the user; and Visual Design, working
+                    towards positive change from prototypes into visual designs</span
                 >
             </div>
-        </div>
 
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle title-spaces">2018</span>
-                <span class="text home-subtitle">Universidade Lusíada Lisboa</span>
-            </div>
-            <div class="about-me-right">
-                <a href="https://www.lis.ulusiada.pt/pt-pt/provas/mialicpedroserrano.aspx" target="_blank" class="text">Download MIA Thesis</a>
-                <span class="text title title-spaces">Masters in Architecture (MIA)</span>
-                <span class="text"
+            <div class="my-infos-item d-flex flex-column justify-content-between align-items-start">
+                <div class="my-infos-item-title title-spaces d-flex justify-content-between align-items-center">
+                    <span class="text title medium text-color01">Masters in Architecture (MIA)</span>
+                    <a href="https://www.lis.ulusiada.pt/pt-pt/provas/mialicpedroserrano.aspx" target="_blank" class="text medium white"
+                        >Download MIA Thesis</a
+                    >
+                </div>
+                <span class="text text-color01"
                     >As a student I was provided with the theoretical and practical skills necessary for the practice of Architecture. Expressed in
-                    the different areas, the understanding of architecture was conveyed as: a cultural phenomenon, taking into account historical and
-                    geographical conditions and heritage; an artistic phenomenon, taking into account its relation with Fine Arts; a scientific
-                    phenomenon, taking into account the sources, methods, research techniques, validation and use – as well as the architectural and
-                    urban design; a technological phenomenon, taking into account the material realization of buildings, production, construction and
-                    management; a professional phenomenon, taking into account the management of the regulating codes to the profession; and also as a
-                    morphological, social and economic phenomenon.</span
+                    different areas, this is a cultural, artistic and scientific phenomenon, that takes into account sources, methods and research
+                    techniques to employ architectural and urban design</span
                 >
             </div>
-        </div>
 
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle">Social skills</span>
+            <div class="my-infos-item d-flex flex-column justify-content-between align-items-start">
+                <div class="my-infos-item-title title-spaces d-flex justify-content-between align-items-center">
+                    <span class="text title medium text-color01">Media Production</span>
+                    <a href="https://www.youtube.com/watch?v=wXkafQWeyWI" target="_blank" class="text medium white">Video Portfolio</a>
+                </div>
+                <span class="text text-color01"
+                    >End-to-end digital media production, community management, and brand awareness for multiple entities. Worked both, as a
+                    freelancer and as a part of Digital Marketing teams</span
+                >
             </div>
-            <div class="about-me-right">
-                <span class="text">Team collaboration</span>
-                <span class="text"> Interdisciplinary collaboration</span>
-                <span class="text">Interpersonal communication</span>
-            </div>
-        </div>
 
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle">Organisational</span>
-            </div>
-            <div class="about-me-right">
-                <span class="text">Experience with surveying, mapping, projecting, and scheduling anual events</span>
-                <span class="text">Experience with multidisciplinary knowledge transference</span>
-            </div>
-        </div>
-
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle">Technical</span>
-            </div>
-            <div class="about-me-right">
-                <span class="text">Critical thinking</span>
-                <span class="text">Problem solving</span>
-                <span class="text">Daily learning</span>
-            </div>
-        </div>
-
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text home-subtitle">Video & Design</span>
-            </div>
-            <div class="about-me-right">
-                <iframe width="250" height="140" src="https://www.youtube.com/embed/wXkafQWeyWI" allowfullscreen="true"> </iframe>
-            </div>
-        </div>
-
-        <div class="about-me-text d-flex justify-content-between align-items-start">
-            <div class="about-me-left">
-                <span class="text">See you soon 👋</span>
+            <div class="my-infos-item d-flex flex-column justify-content-between align-items-start">
+                <div class="my-infos-item-title title-spaces d-flex justify-content-between align-items-center">
+                    <span class="text title medium text-color01">Final notes</span>
+                    <a href="mailto:pedroairserrano@gmail.com" target="_blank" class="text medium white">Send Email</a>
+                </div>
+                <span class="text text-color01"
+                    >Feel free to connect via LinkedIn for any UX or non-UX related issues. I’m a team player who believes in interdisciplinary
+                    collaboration and critical thinking. See you soon!</span
+                >
             </div>
         </div>
     </div>

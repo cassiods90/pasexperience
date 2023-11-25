@@ -1,21 +1,51 @@
+body {
+    &.youtube-page-active,
+    &.mapping-page-active,
+    &.agency-page-active {
+        .nav-menu {
+            .header-menu-item {
+                .submenu {
+                    opacity: 1;
+                    z-index: 100;
+                    top: 46px;
+                    left: 0;
+                    right: auto;
+                    width: 100%;
+                    box-shadow: none;
+                }
+            }
+
+            .header-menu-item + .submenu {
+                opacity: 1;
+                z-index: 100;
+                top: 46px;
+                left: 0;
+                right: auto;
+                width: 100%;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
 .header {
 }
 
 .nav-menu {
     margin: 0 -10px;
     padding: 25px 0;
-    @include transition();
+
     .header-menu-item {
         position: relative;
         display: block;
         margin: 0 10px;
-        @include transition();
         &:after {
             content: '';
+            // background: $blue;
+            background: transparent;
             position: absolute;
-            width: 0;
-            background: $blue;
             height: 1px;
+            width: 0;
             right: 0;
             bottom: -3px;
             @include transition();
@@ -33,6 +63,9 @@
             }
             .submenu {
                 opacity: 1;
+                .header-menu-item {
+                    color: transparent;
+                }
             }
         }
     }
@@ -41,21 +74,93 @@
     .submenu:focus,
     .submenu:active,
     .submenu:hover {
-        opacity: 1;
+        // opacity: 1;
+        // z-index: 100;
+        // top: 46px;
+        // left: 0;
+        // right: auto;
+        // width: 100%;
     }
 
     .submenu {
         opacity: 0;
         background: $white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 20px;
         border-radius: 5px;
         position: absolute;
+        top: 46px;
+        width: 100%;
+        right: 0;
+        left: 0;
         padding: 10px 20px 20px;
-        @include transition();
-        z-index: 100;
+        z-index: -100;
+
         .header-menu-item {
-            margin: 10px 0;
+            margin: 10px 20px;
             text-transform: capitalize;
+            &:focus,
+            &:active,
+            &:hover,
+            &.router-link-active,
+            &.router-link-exact {
+                &:after {
+                    width: 0;
+                    right: 0;
+                }
+            }
+            &:first-child {
+                .header-menu-item-inner {
+                    .header-menu-item-image {
+                        background: #d3e5cf;
+                        img {
+                            width: 46px;
+                            height: 88px;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                .header-menu-item-inner {
+                    .header-menu-item-image {
+                        background: #d9d7f0;
+                        img {
+                            width: 115px;
+                            height: 65px;
+                        }
+                    }
+                }
+            }
+
+            .header-menu-item-inner {
+                box-shadow: 2.67435px 2.67435px 2.67435px 0px rgba(0, 0, 0, 0.25);
+                width: 300px;
+                height: 117px;
+                position: relative;
+                // &:hover {
+                //     box-shadow: 2.67435px 2.67435px 2.67435px 0px rgba($blue, 0.5);
+                // }
+
+                .header-menu-item-image {
+                    background: #d7e9f6;
+                    width: 157px;
+                    height: 100%;
+                    // @include absolutecenter();
+                    img {
+                        width: 106px;
+                        height: 80px;
+                    }
+                }
+                .header-menu-item-content {
+                    height: 100%;
+                    padding: 0 0 0 25px;
+                    .line {
+                        height: 1px;
+                        width: 18px;
+                        background-color: $text-color03;
+                        margin: 10px 0 5px;
+                    }
+                }
+            }
         }
     }
 }

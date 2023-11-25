@@ -2,9 +2,15 @@
     min-height: calc(100vh - 348px);
 
     &.home-page {
+        min-height: calc(100vh - 179px);
         .container {
             max-width: 928px;
         }
+    }
+    &.agency-page,
+    &.mapping-page,
+    &.youtube-page {
+        margin-top: 145px;
     }
 
     &.mapping-page {

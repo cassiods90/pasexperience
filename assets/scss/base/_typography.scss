@@ -14,11 +14,18 @@
     /* ---------- TEXT VARIATIONS ---------- */
     &.bigtitle {
         @include fluid-type(320px, 1680px, 38px, 48px);
+        font-weight: 700;
+    }
+    &.moreTitle {
+        @include fluid-type(320px, 1680px, 20px, 24px);
         font-weight: 600;
     }
     &.title {
         @include fluid-type(320px, 1680px, 16px, 18px);
         font-weight: 600;
+    }
+    &.banner-title {
+        @include fluid-type(320px, 1680px, 16px, 18px);
     }
     &.subtitle {
         @include fluid-type(320px, 1680px, 14px, 16px);
@@ -27,29 +34,44 @@
     &.small-text {
         @include fluid-type(320px, 1680px, 10px, 12px);
     }
-    &.home-bigtitle {
-        @include fluid-type(320px, 1680px, 28px, 32px);
-        font-weight: 600;
-        line-height: 1;
-    }
-    &.home-title {
-        @include fluid-type(320px, 1680px, 16px, 20px);
-        font-weight: 600;
-    }
-    &.home-subtitle {
-        @include fluid-type(320px, 1680px, 20px, 24px);
-        line-height: 1;
-    }
-    &.home-text {
-        font-weight: 300;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        min-height: 54px;
-        margin-top: 54px;
-    }
-    &.home-tumbstitle {
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &.youtubeText {
         @include fluid-type(320px, 1680px, 16px, 18px);
     }
+
+    &.home-text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+        max-width: 470px;
+    }
+
+    &.home-tumbstitle {
+        @include fluid-type(320px, 1680px, 18px, 20px);
+    }
+    &.home-tumbsSubtitle {
+        @include fluid-type(320px, 1680px, 30px, 36px);
+        font-weight: 500;
+        line-height: 1.1;
+        padding: 25px 0;
+    }
+    &.home-tumbsText {
+        @include fluid-type(320px, 1680px, 18px, 20px);
+    }
+
+    &.header-tumbstitle {
+        @include fluid-type(320px, 1680px, 9px, 12px);
+        // line-height: 0.9;
+    }
+    &.header-tumbsSubtitle {
+        @include fluid-type(320px, 1680px, 11px, 14px);
+        font-weight: 600;
+        line-height: 1.1;
+    }
+    &.header-tumbsText {
+        @include fluid-type(320px, 1680px, 18px, 20px);
+    }
+
     &.modalops {
         @include fluid-type(320px, 1680px, 26px, 32px);
         color: #27ae60;
@@ -73,8 +95,14 @@
     &.bold {
         font-weight: 700;
     }
+    &.medium {
+        font-weight: 500;
+    }
     &.semibold {
         font-weight: 600;
+    }
+    &.regular {
+        font-weight: 400;
     }
     &.uppercase {
         text-transform: uppercase;
@@ -104,5 +132,14 @@
     }
     &.text-color04 {
         color: $text-color04;
+    }
+    &.text-color05 {
+        color: $text-color05;
+    }
+    &.text-color06 {
+        color: $text-color06;
+    }
+    &.text-color07 {
+        color: $text-color07;
     }
 }
