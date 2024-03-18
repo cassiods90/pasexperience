@@ -4,7 +4,7 @@
             <div class="my-infos-item d-flex flex-column justify-content-between align-items-start">
                 <div class="my-infos-item-title title-spaces d-flex justify-content-between align-items-center">
                     <span class="text title medium text-color01">UX/UI Design (Specialized)</span>
-                    <a href="http://www.google.com" target="_blank" class="text medium white">Download Final Report</a>
+                    <a href="https://drive.google.com/file/d/1UPYe3LXTQn27PNzm7p7VKf1oLSMykNiG/view?usp=drive_link" target="_blank" class="text medium white">Download Final Report</a>
                 </div>
                 <span class="text text-color01"
                     >An immersive project-based program focused on learning best-in-practice end-to-end UX processes. During my time at Flag Lisboa, I
